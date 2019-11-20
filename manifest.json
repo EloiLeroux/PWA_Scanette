@@ -14,7 +14,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "https://eloileroux.github.io/PWA_Scanette//index.html",
+    "start_url": "index.html",
     "display": "fullscreen",
     "theme_color": "#FFFFFF",
     "background_color": "#7B68EE"
