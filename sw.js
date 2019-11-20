@@ -1,6 +1,3 @@
-self.addEventListener('install', (e) => {
-    console.log('[Service Worker] Install');
-});
 
 var cacheName = 'PWA_Scan-v1';
 var appShellFiles = [
