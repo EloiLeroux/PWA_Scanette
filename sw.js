@@ -22,10 +22,6 @@ var appShellFiles = [
   '/icons/icon-512.png'
 ];
 
-// var gamesImages = [];
-// for(var i=0; i<games.length; i++) {
-//   gamesImages.push('data/img/'+games[i].slug+'.jpg');
-// }
 var contentToCache = appShellFiles;
 
 self.addEventListener('install', (e) => {
@@ -51,10 +47,6 @@ self.addEventListener('fetch', (e) => {
       });
     })
   );
-});
-
-self.addEventListener('fetch', (e) => {
-    console.log('[Service Worker] Fetched resource '+e.request.url);
 });
 
 self.addEventListener('activate', (e) => {
