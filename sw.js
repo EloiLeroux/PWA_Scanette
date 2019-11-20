@@ -38,6 +38,7 @@ self.addEventListener('install', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
+  console.log('[Service Worker] Fetching: app shell and content');
   e.respondWith(
     caches.match(e.request).then((r) => {
           console.log('[Service Worker] Fetching resource: '+e.request.url);
