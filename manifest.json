@@ -1,0 +1,22 @@
+{
+    "name": "PWA_Scanette",
+    "short_name": "PWA_Scan",
+    "description": "A supermarker scanner designed for PWA teaching purposes.",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        // ...
+        {
+            "src": "images/logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://eloileroux.github.io/PWA_Scanette//index.html",
+    "display": "fullscreen",
+    "theme_color": "#FFFFFF",
+    "background_color": "#7B68EE"
+}
