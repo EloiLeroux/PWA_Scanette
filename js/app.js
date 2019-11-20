@@ -1,7 +1,9 @@
 "use strict";
 
 const TRANMISSION_URL = "https://dept-info.univ-fcomte.fr/licence/SAMP/";
-
+if('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js');
+};
 
 /************************************************************************
  *                                                                      *
