@@ -12,6 +12,7 @@ var appShellFiles = [
   '/images/icon-setup.png',
   '/images/icon-transmit.png',
   '/images/logo.png',
+  '/js/DecoderWorker.js',
   '/js/app.js',
   '/js/exif.js',
   '/js/job.js',
