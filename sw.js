@@ -1,9 +1,7 @@
 
 var cacheName = 'PWA_Scan-v1';
 var appShellFiles = [
-  '/',
   '/index.html',
-  '/app.js',
   '/manifest.json',
   '/produit.csv',
   '/style.css',
@@ -22,7 +20,7 @@ var appShellFiles = [
   '/icons/icon-96.png',
   '/icons/icon-128.png',
   '/icons/icon-168.png',
-  '//icons/icon-192.png',
+  '/icons/icon-192.png',
   '/icons/icon-256.png',
   '/icons/icon-512.png'
 ];
