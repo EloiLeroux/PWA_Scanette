@@ -34,6 +34,11 @@
 </head>
 
 <body>
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js');
+        };
+    </script>
     <!-- First page --> 
     <div id="bcStart">
         <img src="images/logo.png">
