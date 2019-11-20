@@ -5,7 +5,7 @@ self.addEventListener('install', (e) => {
 var cacheName = 'PWA_Scan-v1';
 var appShellFiles = [
   '/index.html',
-  '/index.js',
+  '/app.js',
   '/style.css',
   '/favicon.ico',
   '/images/barcode-scanner.png',
