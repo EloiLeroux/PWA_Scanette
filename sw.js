@@ -1,6 +1,7 @@
 
 var cacheName = 'PWA_Scan-v1';
 var appShellFiles = [
+  '/',
   '/index.html',
   '/app.js',
   '/manifest.json',
